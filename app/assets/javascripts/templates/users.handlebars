@@ -1,0 +1,10 @@
+<button class="show-add-form">Add new</button>
+<ul>
+  {{#each users}}
+    <li data-id="{{id}}">
+      <span>{{given_name}}</span>
+      <button class="edit">Edit</button>
+      <button class="delete">Delete</button>
+    </li>
+  {{/each}}
+</ul>

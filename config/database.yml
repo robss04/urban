@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: urban_dev
+  pool: 5
+  username: rails
+  password: monday
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: urban_test
+  pool: 5
+  username: rails
+  password: monday
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: urban_production
+  pool: 5
+  username: rails
+  password: monday

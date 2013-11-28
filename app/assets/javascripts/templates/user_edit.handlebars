@@ -1,0 +1,6 @@
+{{#each users}}
+  <form id="user-edit-form" data-id="{{id}}">
+    <input type="text" name="user[given_name]" value="{{given_name}}">
+    <input type="submit" value="Save Changes">
+  </form>
+{{/each}}

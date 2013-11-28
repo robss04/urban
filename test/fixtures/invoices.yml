@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ordered_on: 2013-11-19 12:45:46
+  delivery_on: 2013-11-19 12:45:46
+  delivery_at: 2013-11-19 12:45:46
+  status: MyText
+  selection_id: 
+
+two:
+  ordered_on: 2013-11-19 12:45:46
+  delivery_on: 2013-11-19 12:45:46
+  delivery_at: 2013-11-19 12:45:46
+  status: MyText
+  selection_id: 
